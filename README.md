@@ -1,2 +1,2 @@
-# golightly-plus
+# GolightlyPlus
 The main site for GolightlyPlus
