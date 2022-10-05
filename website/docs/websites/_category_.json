@@ -1,0 +1,8 @@
+{
+  "label": "Websites",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Websites built by Golightly+"
+  }
+}
