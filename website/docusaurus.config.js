@@ -69,7 +69,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Legal',
             items: [
               {
                 label: 'Privacy Policy',
