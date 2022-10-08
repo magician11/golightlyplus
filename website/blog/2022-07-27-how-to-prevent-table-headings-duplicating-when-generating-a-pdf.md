@@ -49,7 +49,7 @@ const htmlToPdf = async html => {
 };
 ```
 
-```js title="print-media.html"
+```html title="print-media.html"
  <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
