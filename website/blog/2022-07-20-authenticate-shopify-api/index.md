@@ -9,6 +9,8 @@ I use Node.js. So to programatically connect to Shopify’s [Admin API](https://
 
 I found the details on how to authenticate using the API was not very obvious though. This is how to do it.
 
+<!--truncate-->
+
 ### First we need to get an Admin API access token
 
 1. Login to your Shopify Dashboard.

@@ -9,7 +9,9 @@ I decided to switch from Apache to Nginx.
 
 I have a couple of WordPress sites on a DigitalOcean droplet, so I needed to reconfigure them to be used with Nginx. I basically followed [this guide](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-lemp-on-ubuntu-16-04) which was great for most of it, but I was still not getting the sites loading properly (404 errors, forbidden).
 
-I needed to tweak the server block files to get it working, and this is what I came up with..
+I needed to tweak the server block files to get it working, and this is what I came up with...
+
+<!--truncate-->
 
 In `/etc/nginx/sites-available` create a separate file for each domain you’re hosting. For one of mine, I called it `goforself.me` to correspond with a previous website called Go For Self. This is the contents of that file…
 
