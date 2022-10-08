@@ -11,6 +11,8 @@ So essentially I would need to
 - Download all the products from Shopify for a store
 - Iterate through them all comparing the inventory value reported in Shopify with the inventory value reported in their external database.
 
+<!--truncate-->
+
 Previously there was no easy way to simply fetch all products if the store has more than 250 products. [The REST API from Shopify has a limit of 250 for retrieving a list of products](https://shopify.dev/api/admin-rest/2022-07/resources/product#get-products).
 
 But [there is a way to perform a bulk query using GraphQL with the Admin API](https://shopify.dev/api/usage/bulk-operations/queries).
@@ -50,6 +52,7 @@ mutation {
   console.log(JSON.stringify(res.body, null, 2));
 };
 ```
+
 ```js title="get-url-with-data.js"
 const retrieveUrl = async admin_graphql_api_id => {
   const data = `
@@ -136,6 +139,7 @@ const fetchAllProducts = async () => {
   return res.body;
 };
 ```
+
 > [View this gist on GitHub](https://gist.github.com/magician11/a56f9952282507169b68e353c66bd6af)
 
 The data will be returned as [JSONL](https://jsonlines.org/). This is JSON but broken up on one line at a time. For example, it might look like this…
@@ -145,4 +149,5 @@ The data will be returned as [JSONL](https://jsonlines.org/). This is JSON but b
 {"title":"Silver, White and Blue Diamond","inventoryQuantity":23,"id":"gid:\/\/shopify\/ProductVariant\/5555555","sku":"207278","__parentId":"gid:\/\/shopify\/Product\/12345678"}
 {"id":"gid:\/\/shopify\/Product\/44444444","title":"Pavé Evil Eye Bracelet"}
 ```
+
 I found the best way to process the JSONL file is to first figure out what you want from that data exactly. I ended up building a JavaScript object from it, so I could reference it when comparing inventory values with an external database.
