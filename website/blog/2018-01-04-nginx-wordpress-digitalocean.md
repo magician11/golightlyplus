@@ -2,6 +2,7 @@
 slug: nginx-wordpress-digitalocean
 title: How to setup Nginx for WordPress on DigitalOcean
 authors: andrew
+tags: [digitalocean]
 ---
 
 I decided to switch from Apache to Nginx.

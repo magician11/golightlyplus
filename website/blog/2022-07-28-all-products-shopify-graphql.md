@@ -2,6 +2,7 @@
 slug: all-products-shopify-graphql
 title: How to fetch all products from Shopify in a single query using GraphQL
 authors: andrew
+tags: [shopify]
 ---
 
 I’ve had a few projects now where I’ve had to sync up inventories in Shopify with some external database that was their source of truth for inventory values.
