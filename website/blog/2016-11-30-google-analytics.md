@@ -1,5 +1,5 @@
 ---
-slug: google-analytics
+slug: google-analytics-reactjs
 title: How to setup Google Analytics with React.js apps
 authors: andrew
 tags: [reactjs]
