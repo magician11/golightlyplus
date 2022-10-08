@@ -4,4 +4,4 @@ title: Contact
 
 # Contact Us
 
-Email Andrew at support@andrewgolightly.com
+You can email Andrew at support@andrewgolightly.com
