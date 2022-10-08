@@ -18,7 +18,7 @@ But I was noticing that the table headings would often duplicate themselves. In 
 @media print
 ```
 
-you can code up CSS that will be only be applied when printing documents. Example in print-media.html below.
+you can code up CSS that will be only be applied when printing documents. Example in `print-media.html` below.
 
 The key line of code to prevent table headings duplicating is
 
