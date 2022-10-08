@@ -10,4 +10,4 @@ sidebar_position: 1
 
 Bridge33 is a commercial real estate investment firm. Their site is built with a custom map to navigate and showcase their portfolio, slideshows for their properties, and an image rich and responsive website.
 
-[Visit their site.](https://www.bridge33capital.com/)
+[Visit their site →](https://www.bridge33capital.com/)

@@ -13,4 +13,4 @@ Bowen Therapy comprises a specific series of gentle, soft-tissue, muscle and fas
 
 This is the second version of her website. It comes complete with an integrated booking system.
 
-[Visit their site.](https://www.healthartisans.com.au/)
+[Visit their site →](https://www.healthartisans.com.au/)
