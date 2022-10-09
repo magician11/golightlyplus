@@ -4,26 +4,12 @@ title: Using the Spotify Web API with Python
 authors: andrew
 ---
 
-You’re probably reading this because you already have a [Let’s Encrypt](https://letsencrypt.org/) certificate issued using [certbot](https://certbot.eff.org/) for a domain, and now want to add-on subdomains.
+Same friend who inspired me to create the [Signification app](/docs/apps/signification), also inspired me to learn Python, and in particular how to interact with the Spotify API using Python.
+
+I created a walk through tutorial on how I found Python, and how to create some scripts to interact with Spotify using Python.
 
 <!--truncate-->
 
-If you want to create a new certificate, have a look at the end of [this article](./nginx-wordpress-digitalocean).
+[Watch the video on YouTube →](https://www.youtube.com/watch?v=8OGpz0UeYp4)
 
-In my case I already had a certificate which covered
-
-- golightlyplus.com
-- www.golightlyplus.com
-
-I have a directory on my server called dev that I want to reference via dev.golightlyplus.com.
-
-So to do that, I issued the following command
-
-`certbot -d golightlyplus.com,dev.golightlyplus.com,www.golightlyplus.com --expand`
-
-Key takeaways:
-
-1. re-include every domain name you want on that certificate again. I forgot www. the first time. No biggie, just re-run with all the domains you want.
-2. don’t forget to add --expand to the end
-
-After reading around on the net a bit, I found this solution on [this GitHub thread](https://github.com/certbot/certbot/issues/2230#issuecomment-268409183).
+You can view [all the source code to the experiments on GitHub](https://github.com/magician11/spotify).
