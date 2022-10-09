@@ -8,6 +8,8 @@ authors: andrew
 
 [I upgraded to V6 in React Router](https://reactrouter.com/docs/en/v6/upgrading/v5#use-usenavigate-instead-of-usehistory). One of the upgrades was to replace all occurrences of
 
+<!--truncate-->
+
 ```
 history.replace('some-route');
 ```

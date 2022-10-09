@@ -8,6 +8,8 @@ authors: andrew
 
 I’ve been building websites for about 20 years now. Depending what you want from a website and your skill level with web development, will point to what web infrastructure you want.
 
+<!--truncate-->
+
 For every website you’ll need the site files (e.g. HTML, CSS, JavaScript, images), and a domain name (e.g. https://andrewgolightly.com). If you don’t choose a plan that includes a custom domain name, you can always get one at [Namecheap](https://www.namecheap.com/).
 ### No web development experience needed
 
