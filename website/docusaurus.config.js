@@ -31,7 +31,9 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js')
         },
         blog: {
-          showReadingTime: true
+          showReadingTime: true,
+          blogSidebarTitle: 'Article list',
+          blogSidebarCount: 'ALL'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')

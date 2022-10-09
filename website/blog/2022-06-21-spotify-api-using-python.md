@@ -10,6 +10,8 @@ I created a walk through tutorial on how I found Python, and how to create some 
 
 <!--truncate-->
 
+<iframe width="100%" height="444" src="https://www.youtube.com/embed/8OGpz0UeYp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 [Watch the video on YouTube →](https://www.youtube.com/watch?v=8OGpz0UeYp4)
 
 You can view [all the source code to the experiments on GitHub](https://github.com/magician11/spotify).
