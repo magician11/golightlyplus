@@ -1,0 +1,29 @@
+---
+slug: spotify-api-using-python
+title: Using the Spotify Web API with Python
+authors: andrew
+---
+
+You’re probably reading this because you already have a [Let’s Encrypt](https://letsencrypt.org/) certificate issued using [certbot](https://certbot.eff.org/) for a domain, and now want to add-on subdomains.
+
+<!--truncate-->
+
+If you want to create a new certificate, have a look at the end of [this article](./nginx-wordpress-digitalocean).
+
+In my case I already had a certificate which covered
+
+- golightlyplus.com
+- www.golightlyplus.com
+
+I have a directory on my server called dev that I want to reference via dev.golightlyplus.com.
+
+So to do that, I issued the following command
+
+`certbot -d golightlyplus.com,dev.golightlyplus.com,www.golightlyplus.com --expand`
+
+Key takeaways:
+
+1. re-include every domain name you want on that certificate again. I forgot www. the first time. No biggie, just re-run with all the domains you want.
+2. don’t forget to add --expand to the end
+
+After reading around on the net a bit, I found this solution on [this GitHub thread](https://github.com/certbot/certbot/issues/2230#issuecomment-268409183).
