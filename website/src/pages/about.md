@@ -4,13 +4,24 @@ title: About
 
 # About Golightly+
 
-![Andrew Golightly](/img/Andrew-Golightly.jpg)
+<div class="container">
+  <div class="row">
+    <div class="col col--6">
+    <img src={require('@site/static/img/Andrew-Golightly.jpg').default} alt="Andrew Golightly"/>
+    </div>
+    <div class="col col--6">
 
-Andrew Golightly is the lead web developer at Golightly+. He works as a fullstack JS developer specialising in [Node.js](https://nodejs.org/), [ReactJS](https://reactjs.org/), and [Firebase](https://firebase.google.com/).
+Andrew Golightly is the lead web developer at Golightly+.
+
+He works as a fullstack JS developer specialising in [Node.js](https://nodejs.org/), [ReactJS](https://reactjs.org/), and [Firebase](https://firebase.google.com/).
 
 For over 20 years now, he has been working in IT with his degree in computer science.
 
-    Turning peoples’ ideas into a digital reality is his passion.
+> Turning peoples’ ideas into a digital reality is his passion.
+
+</div>
+  </div>
+</div>
 
 As [a qualified counselor who runs an empath community](https://empath.community/), his communication skills are superb. An uncommon trait in the IT industry, Andrew loves connecting with people. He believes communication and understanding clients to identify their needs is potentially even more important than the coding itself.
 
