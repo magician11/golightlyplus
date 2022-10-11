@@ -21,7 +21,7 @@ There are a few steps to get this done.
 
 First.. we need to setup a webhook on our Shopify store that calls our script everytime an order is made.
 
-[fusion_imageframe image_id=”992″ style_type=”none” stylecolor=”” hover_type=”none” bordersize=”” bordercolor=”” borderradius=”” align=”none” lightbox=”yes” gallery_id=”” lightbox_image=”” alt=”” link=”” linktarget=”_self” hide_on_mobile=”small-visibility,medium-visibility,large-visibility” class=”” id=”” animation_type=”” animation_direction=”left” animation_speed=”0.3″ animation_offset=””]http://golightlyplus.com/wp-content/uploads/2016/11/create-webhook-button.png[/fusion_imageframe]
+**http://golightlyplus.com/wp-content/uploads/2016/11/create-webhook-button.png**
 
  
 
@@ -29,7 +29,7 @@ Then we need to select which event we want to trigger for our server to be calle
 
  
 
-[fusion_imageframe image_id=”995″ style_type=”none” stylecolor=”” hover_type=”none” bordersize=”” bordercolor=”” borderradius=”” align=”none” lightbox=”yes” gallery_id=”” lightbox_image=”” alt=”” link=”” linktarget=”_self” hide_on_mobile=”small-visibility,medium-visibility,large-visibility” class=”” id=”” animation_type=”” animation_direction=”left” animation_speed=”0.3″ animation_offset=””]http://golightlyplus.com/wp-content/uploads/2016/11/Screen-Shot-2016-11-23-at-12.33.24-PM.png[/fusion_imageframe]
+**http://golightlyplus.com/wp-content/uploads/2016/11/Screen-Shot-2016-11-23-at-12.33.24-PM.png**
 
  
 
