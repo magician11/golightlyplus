@@ -55,11 +55,11 @@ const config = {
           {
             type: 'doc',
             docId: 'portfolio',
-            position: 'left',
             label: 'Portfolio'
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
-          { to: '/about', label: 'About', position: 'left' },
+          { to: '/blog', label: 'Blog' },
+          { to: '/testimonials', label: 'Testimonials' },
+          { to: '/about', label: 'About' },
           {
             label: 'Contact',
             to: '/contact',
