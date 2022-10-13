@@ -1,6 +1,6 @@
 import React from 'react';
 import Translate, { translate } from '@docusaurus/Translate';
-import '@lottiefiles/lottie-player';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 import { PageMetadata } from '@docusaurus/theme-common';
 import Layout from '@theme/Layout';
 export default function NotFound() {
@@ -32,12 +32,19 @@ export default function NotFound() {
                   This page has been abducted.
                 </Translate>
               </p>
-              <lottie-player
-                autoplay
-                loop
-                style={{ width: '555px' }}
-                src="https://assets6.lottiefiles.com/packages/lf20_NNGsAO1Ve7.json"
-              ></lottie-player>
+              <BrowserOnly>
+                {() => {
+                  require('@lottiefiles/lottie-player');
+                  return (
+                    <lottie-player
+                      autoplay
+                      loop
+                      style={{ maxWidth: '555px' }}
+                      src="https://assets6.lottiefiles.com/packages/lf20_NNGsAO1Ve7.json"
+                    ></lottie-player>
+                  );
+                }}
+              </BrowserOnly>
             </div>
           </div>
         </main>
