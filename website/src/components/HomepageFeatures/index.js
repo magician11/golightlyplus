@@ -52,7 +52,7 @@ function Feature({ Svg, title, description, url }) {
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
-      <div className="text--center">
+      <div className="text--center margin-bottom--lg">
         <Link to={url}>
           <button class="button button--info">View more</button>
         </Link>
